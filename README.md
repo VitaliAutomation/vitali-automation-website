@@ -1,28 +1,24 @@
-# Vitali Automation Website — V3 with original logo and actual app screenshots
+# Vitali Automation Website V5 — Free plan / subscriptions / legal review
 
-This is a complete replacement for the separate new GitHub Pages website repository `VitaliAutomation/vitali-automation-website` (not the old `vitaliautomation.github.io` repository).
+Updated 8 November 2026. Built from verified V4 website that displays the official logo and eight real Recipe Assistant screenshots correctly. All pages use site-v5.css to defeat cached CSS.
 
-All files are FLAT and go directly into the repository root. Upload files directly, not an outer folder. GitHub may ask to overwrite existing website files; confirm the change only in the NEW repository.
+## Plan rules
 
-Main changes:
-- Official user-supplied Vitali Automation blue/grey industrial-control logo replaces the illustrated V across header/footer.
-- Actual Android Recipe Assistant development screenshots; no mockups or AI recreations.
-- Recipe Assistant hero showcases the real cookbook homepage and full recipe page.
-- Swipeable/scrollable gallery of 8 selected actual screenshots.
-- Homepage features a real screenshot thumbnail.
-- Existing pages, original navigation, prices and legal DRAFT notices retained.
+- Free: up to 20 saved recipes. Existing recipes can still be viewed, used, edited and deleted.
+- Optional subscription: planned UK £4.99 per month; save more than 20 and access AI within monthly allowances.
+- If subscription ends: do not auto-delete ANY saved recipes (including 200+). Adding on Free is blocked until count <20, or subscription resumes.
+- Three successful complimentary operations per eligible AI feature are planned; no automatic paid conversion.
+- Store manages subscription renewal and cancellation. No website checkout.
+- No Lifetime Pro or legacy one-time purchase language.
 
-Screenshots selected: cookbook home, AI-generated lasagne, creamy-chicken recipe detail, My Recipes collection, Kitchen AI, Weekly Meal Planner, Shopping List, Photo Recipe Import.
+## Not final legal publications
 
-Please review legal drafts and pricing before publishing to vitaliautomation.com. The root-level `robots.txt` and `noindex` meta tags remain for preview. No domain DNS settings changed.
+Terms, privacy and deletion pages remain marked as drafts. Before publishing as app-linked policies, verify actual backend/phone data flows and retention, controller's legal identity and geographic business address, phone contact when applicable, cancellation flows, local prices, and store trader declarations. DO NOT add unverified personal details. The noindex/no-follow preview flags are deliberately preserved.
 
-All image source files are user-supplied. Logo has only been trimmed of external white margins. App screenshots have only been resized and WebP-compressed; actual screen content is preserved.
+Official policy sources checked: Google Play trader declaration (1 Feb 2027 deadline, 1 March 2027 visibility change); Apple EU Digital Services Act trader contact; UK Electronic Commerce Regulations 2002 Regulation 6.
 
+## Upload
 
-## V4 screenshot layout hotfix — 8 November 2026
+Extract ZIP, upload ALL FILES directly to the repository root in VitaliAutomation/vitali-automation-website and replace previous versions. Do not upload the parent folder. Confirm site-v5.css present. GitHub Pages main /(root). Refresh in browser.
 
-V3's new screenshot classes could render with an older cached `site.css` file in Edge/GitHub Pages, causing images to display at natural height. **All HTML pages now load the new `site-v4.css` filename**. The Recipe Assistant page also includes tiny critical image-size rules as a safeguard.
-
-Upload **every extracted file at the repository root**, including the NEW `site-v4.css` and the eight `app-*.webp` files. Do not place the site into a subfolder. The old `site.css` can remain; V4 pages use `site-v4.css`.
-
-Verify desktop and mobile layout, scroll through the image carousel, and do not connect the custom domain until legal pages are final.
+Existing DNS, API and old GitHub website unaffected.
