@@ -1,16 +1,19 @@
-# Vitali Automation website preview v2 — asset path repair
+# Vitali Automation Website — V3 with original logo and actual app screenshots
 
-This release keeps all website files at the repository ROOT so GitHub's browser uploader cannot separate CSS, JavaScript or logo paths.
+This is a complete replacement for the separate new GitHub Pages website repository `VitaliAutomation/vitali-automation-website` (not the old `vitaliautomation.github.io` repository).
 
-## What changed
+All files are FLAT and go directly into the repository root. Upload files directly, not an outer folder. GitHub may ask to overwrite existing website files; confirm the change only in the NEW repository.
 
-Every HTML page now loads `site.css`, `site.js` and `brand.svg` from the same folder as `index.html`. The broken v1 pages incorrectly requested `css/site.css`, `js/site.js` and `assets/brand.svg` although the GitHub upload flattened those assets.
+Main changes:
+- Official user-supplied Vitali Automation blue/grey industrial-control logo replaces the illustrated V across header/footer.
+- Actual Android Recipe Assistant development screenshots; no mockups or AI recreations.
+- Recipe Assistant hero showcases the real cookbook homepage and full recipe page.
+- Swipeable/scrollable gallery of 8 selected actual screenshots.
+- Homepage features a real screenshot thumbnail.
+- Existing pages, original navigation, prices and legal DRAFT notices retained.
 
-## Upload to GitHub
+Screenshots selected: cookbook home, AI-generated lasagne, creamy-chicken recipe detail, My Recipes collection, Kitchen AI, Weekly Meal Planner, Shopping List, Photo Recipe Import.
 
-1. Extract ZIP. Select **all files inside** the extracted folder (not the enclosing folder).
-2. In `VitaliAutomation/vitali-automation-website`, choose **Add file → Upload files** and drag the files.    The HTML files should be updated in place.
-3. Commit as `Fix website styles and asset paths`.
-4. Visit `https://vitaliautomation.github.io/vitali-automation-website/` and press Ctrl+F5.
+Please review legal drafts and pricing before publishing to vitaliautomation.com. The root-level `robots.txt` and `noindex` meta tags remain for preview. No domain DNS settings changed.
 
-This preview contains `noindex,nofollow` and draft legal pages; do not link the production app until the legal terms and real store configuration are verified.
+All image source files are user-supplied. Logo has only been trimmed of external white margins. App screenshots have only been resized and WebP-compressed; actual screen content is preserved.
